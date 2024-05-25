@@ -1,0 +1,167 @@
+/* * {
+    border: solid 1px salmon;
+} */
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* HERO SECTION */
+
+.hero {
+    background-color: #1F2937;
+    padding: 0 120px 64px 120px;
+}
+
+.nav {
+    color: #FAF9F8;
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.menu-items {
+    gap: 16px;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: auto;
+    color: #FAF9F8;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+}
+
+.container-content{
+    padding: 64px 0;
+}
+
+.container-content p {
+    color: #E5E7EB;
+}
+
+h1 {
+    color: #FAF9F8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.img-synth {
+    max-width: 600px;
+    flex-grow: 0;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 4px;
+    color: #FAF9F8;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* RANDOM INFO SECTION */
+
+.info {
+    padding: 32px 0 32px 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info ul {
+    justify-content: center;
+    gap: 32px;
+    padding: 32px 0 64px 0;
+}
+
+.info-item {
+    text-align: center;
+    flex-basis: 240px;
+}
+
+.info-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+/* QUOTE SECTION */
+
+.quote-section {
+    background: #E5E7EB;
+    padding: 64px 256px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 700;
+}
+
+/* CTA SECTION */
+
+.cta-section {
+    padding: 96px 156px;
+}
+
+.content-wrapper {
+    background: #3882F6;
+    color: #FAF9F8;
+    padding: 16px 96px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.cta-btn {
+    border: solid 1px #FAF9F8;
+    flex-grow: 0;
+    flex-basis: 160px;
+}
+
+.cta-content {
+    flex-basis: 700px;
+    margin-right: auto;
+}
+
+
+/* FOOTER SECTION */
+
+.footer {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #1F2937;
+    text-align: center;
+    color: #FAF9F8;
+}
